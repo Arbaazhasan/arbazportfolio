@@ -174,6 +174,7 @@ body {
     background-color: #111827;
 
 
+
 }
 
 #heading {
@@ -518,6 +519,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 footer::before {
@@ -528,7 +530,8 @@ footer::before {
     height: 20vh;
     left: 0;
     background-image: linear-gradient(to right, rgb(128, 0, 92), rgb(107, 43, 226));
-    z-index: -10;
+    z-index: -100;
+
     opacity: 20%;
 }
 
@@ -545,6 +548,8 @@ footer::before {
     position: relative;
     align-items: center;
     justify-content: center;
+    z-index: -10;
+
 }
 
 
@@ -660,9 +665,10 @@ footer::before {
 
     .skills {
         /* border: 2px solid red; */
-        padding: 15% 0%;
+        padding: 25% 0%;
         height: fit-content;
         gap: 1.5rem;
+
 
     }
 
@@ -686,6 +692,7 @@ footer::before {
 
     .project {
         padding: 0;
+        padding: 15% 0%;
     }
 
     .projects {
@@ -746,7 +753,7 @@ footer::before {
 
     .resumeSection {
         /* border: 2px solid red; */
-        padding: 15% 7%;
+        padding: 25% 7%;
 
     }
 
@@ -776,6 +783,7 @@ footer::before {
         width: 100%;
         height: fit-content;
         margin: 2rem 0rem;
+        z-index: -100;
     }
 
 
