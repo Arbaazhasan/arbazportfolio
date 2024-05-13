@@ -684,10 +684,15 @@ footer::before {
 
     }
 
+    .project {
+        padding: 0;
+    }
+
     .projects {
-        padding: 0% 0%;
         height: fit-content;
         width: 100%;
+        padding: 0;
+        /* border: 2px solid green; */
     }
 
     #projectHeading {
@@ -701,6 +706,7 @@ footer::before {
 
     .projects {
         gap: 2rem;
+        /* width: 100%; */
     }
 
     .projectCase {
@@ -717,6 +723,18 @@ footer::before {
     .pDetails {
         /* border: 2px solid green; */
         width: 100%;
+    }
+
+
+    .pLink {
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    .pLink>a {
+        width: 90%;
+        /* border: 2px solid red; */
+        font-size: small;
     }
 
 
